@@ -8,10 +8,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
         <ImageView style="@style/mainbutton"
-
             android:id="@+id/one"/>
 
         <ImageView style="@style/mainbutton"
@@ -22,6 +22,40 @@
 
         <ImageView style="@style/mainbutton"
             android:id="@+id/four"    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageView style="@style/mainbutton"
+            android:id="@+id/five"/>
+
+        <ImageView style="@style/mainbutton"
+            android:id="@+id/six" />
+
+        <ImageView style="@style/mainbutton"
+            android:id="@+id/seven"  />
+
+        <ImageView style="@style/mainbutton"
+            android:id="@+id/eight"    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageView style="@style/mainbutton"
+            android:id="@+id/nine"/>
+
+        <ImageView style="@style/mainbutton"
+            android:id="@+id/ten" />
+
+        <ImageView style="@style/mainbutton"
+            android:id="@+id/eleven"  />
+
+        <ImageView style="@style/mainbutton"
+            android:id="@+id/twelve"    />
     </LinearLayout>
 
 </LinearLayout>
