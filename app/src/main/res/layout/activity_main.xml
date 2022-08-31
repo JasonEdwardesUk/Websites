@@ -12,9 +12,11 @@
         android:layout_weight="1"
         android:orientation="horizontal">
         <ImageView style="@style/mainbutton"
+
             android:id="@+id/one"/>
 
         <ImageView style="@style/mainbutton"
+
             android:id="@+id/two" />
 
         <ImageView style="@style/mainbutton"

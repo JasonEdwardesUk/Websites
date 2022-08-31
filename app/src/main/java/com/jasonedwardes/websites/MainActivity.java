@@ -2,6 +2,8 @@ package com.jasonedwardes.websites;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -43,12 +45,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.one:
+                gotoUrl("https://www.ebay.com");
                 break;
             case R.id.two:
+                gotoUrl("https://www.amazon.com");
                 break;
             case R.id.three:
+                gotoUrl("https://www.youtube.com");
                 break;
             case R.id.four:
+                gotoUrl("https://androidforums.com");
                 break;
             case R.id.five:
                 break;
@@ -67,5 +73,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.twelve:
                 break;
         }
+    }
+    private void gotoUrl(String s) {
+        Uri uri = Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
+
     }
 }
