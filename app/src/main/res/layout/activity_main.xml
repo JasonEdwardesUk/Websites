@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:src="@drawable/background"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -10,53 +11,67 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:layout_marginRight="16dp"
         android:orientation="horizontal">
         <ImageView style="@style/mainbutton"
-
+            android:src="@drawable/btn1"
             android:id="@+id/one"/>
 
         <ImageView style="@style/mainbutton"
-
+            android:src="@drawable/btn2"
             android:id="@+id/two" />
 
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn3"
             android:id="@+id/three"  />
 
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn4"
             android:id="@+id/four"    />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginRight="16dp"
         android:layout_weight="1"
         android:orientation="horizontal">
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn5"
             android:id="@+id/five"/>
 
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn6"
             android:id="@+id/six" />
 
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn7"
             android:id="@+id/seven"  />
 
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn8"
             android:id="@+id/eight"    />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:orientation="horizontal">
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn9"
             android:id="@+id/nine"/>
 
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn10"
             android:id="@+id/ten" />
 
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn11"
             android:id="@+id/eleven"  />
 
         <ImageView style="@style/mainbutton"
+            android:src="@drawable/btn12"
             android:id="@+id/twelve"    />
     </LinearLayout>
 

@@ -54,23 +54,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 gotoUrl("https://www.youtube.com");
                 break;
             case R.id.four:
-                gotoUrl("https://androidforums.com");
+                gotoUrl("https://argos.co.uk");
                 break;
             case R.id.five:
+                gotoUrl("https://www.currys.co.uk/");
                 break;
             case R.id.six:
+                gotoUrl("https://androidforums.com/");
                 break;
             case R.id.seven:
+                gotoUrl("https://google.com");
                 break;
             case R.id.eight:
+                gotoUrl("https://facebook.com");
                 break;
             case R.id.nine:
+                gotoUrl("https://stackoverflow.com");
                 break;
             case R.id.ten:
+                gotoUrl("https://twitter.com/");
                 break;
             case R.id.eleven:
+                gotoUrl("https://imdb.com/");
                 break;
             case R.id.twelve:
+                gotoUrl("https://www.bbc.co.uk/news");
                 break;
         }
     }
